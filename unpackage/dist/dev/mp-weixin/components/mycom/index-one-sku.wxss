@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 规格选择弹窗 */
+/* 规格选择弹窗 */
+.choseNum.data-v-b88448d4 {
+  padding: 20rpx;
+}
+.attr-content.data-v-b88448d4 {
+  z-index: 999;
+  padding: 10rpx 0;
+  background-color: #FFFFFF;
+  width: 100%;
+  box-sizing: border-box;
+}
+.attr-content .a-t.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 30rpx;
+  position: relative;
+  padding-top: 40rpx;
+}
+.attr-content .a-t .img.data-v-b88448d4 {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+}
+.attr-content .a-t .right.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding-left: 30rpx;
+}
+.attr-content .a-t .right .price.data-v-b88448d4 {
+  margin-bottom: 10rpx;
+}
+.attr-content .a-t .right .selected-text.data-v-b88448d4 {
+  margin-right: 10rpx;
+}
+.attr-content .attr-list.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50rpx;
+}
+.attr-content .item-list.data-v-b88448d4 {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.attr-content .item-list text.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  box-sizing: border-box;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 50rpx;
+  width: 210rpx;
+  height: 60rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #cccccc;
+  font-size: 24rpx;
+}
+.attr-content .item-list .selected.data-v-b88448d4 {
+  border: none;
+  color: #007030;
+  background: #E9FFF2;
+  border: 1rpx solid #007030;
+}
+/*  弹出层 */
+.popup.data-v-b88448d4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.popup .mask.data-v-b88448d4 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.popup .layer.data-v-b88448d4 {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  min-height: 40vh;
+  background-color: #fff;
+  border-radius: 20rpx 20rpx 0px 0px;
+}
+/* 底部操作菜单 */
+.page-bottom.data-v-b88448d4 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 95;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 100rpx;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20rpx 0 rgba(0, 0, 0, 0.5);
+}
+.page-bottom .p-b-btn.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 96rpx;
+  height: 80rpx;
+}
+.page-bottom .action-btn-group.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 76rpx;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0 20rpx 40rpx -16rpx #fa436a;
+  box-shadow: 1px 2px 5px rgba(219, 63, 96, 0.4);
+  background: -webkit-linear-gradient(left, #ffac30, #fa436a, #f56c6c);
+  background: linear-gradient(to right, #ffac30, #fa436a, #f56c6c);
+  margin-left: 20rpx;
+  position: relative;
+}
+.page-bottom .action-btn-group.data-v-b88448d4:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 28rpx;
+  width: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.page-bottom .action-btn-group .action-btn.data-v-b88448d4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 28rpx;
+  width: 180rpx;
+  height: 100%;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.updataCon.data-v-b88448d4 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx 0;
+}
+.y-bg.data-v-b88448d4 {
+  background: #ffbf00;
+  box-shadow: 0px 5rpx 16rpx 0px rgba(255, 191, 0, 0.3);
+  color: white;
+}
+.updataGoods.data-v-b88448d4 {
+  width: 88%;
+  margin: 20rpx auto;
+  line-height: 88rpx;
+  border-radius: 44rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+

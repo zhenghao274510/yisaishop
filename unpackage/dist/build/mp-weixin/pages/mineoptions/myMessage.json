@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的消息",
+  "usingComponents": {
+    "message-item": "/components/mycom/message-item",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

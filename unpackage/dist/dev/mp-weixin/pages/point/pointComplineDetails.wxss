@@ -1,0 +1,47 @@
+
+.point-top-con.data-v-3c2598e7 {
+	background: #FFFFFF;
+	border-radius: 0px 0px 20rpx 20rpx;
+	margin-top: 30rpx;
+}
+.point-top.data-v-3c2598e7 {
+	width: 695rpx;
+	height: 619rpx;
+	background: -webkit-linear-gradient(bottom, #199041, #29B05D);
+	background: linear-gradient(0deg, #199041, #29B05D);
+	border-radius: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.point-info-con.data-v-3c2598e7 {
+	padding: 30rpx;
+	width: 100%;
+	box-sizing: border-box;
+}
+.c-bg.data-v-3c2598e7 {
+	background: #BFBFBF;
+}
+.a-bg.data-v-3c2598e7 {
+	background: #007030;
+}
+.bill-btn.data-v-3c2598e7 {
+	width: 707rpx;
+	line-height: 88rpx;
+	border-radius: 44rpx;
+	text-align: center;
+	margin: 100rpx auto;
+	color: #FFFFFF;
+	font-size: 32rpx;
+}
+.point-title.data-v-3c2598e7 {
+	font-size: 36rpx;
+	font-weight: bold;
+}
+

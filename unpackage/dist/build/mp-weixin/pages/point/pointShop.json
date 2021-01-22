@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "积分商城",
+  "usingComponents": {
+    "point-item": "/components/mycom/point-item",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "point-compline-item": "/components/mycom/point-compline-item"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "伊赛商城",
+  "usingComponents": {
+    "bbs-countdown": "/components/bbs-countdown/bbs-countdown",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

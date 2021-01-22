@@ -1,0 +1,134 @@
+{
+  "pages": [
+    "pages/tabs/ad_page",
+    "pages/public/noNearShop",
+    "pages/public/adCompline",
+    "pages/tabs/index",
+    "pages/tabs/class",
+    "pages/tabs/cart",
+    "pages/tabs/mine",
+    "pages/public/distributionMode",
+    "pages/public/shopMap",
+    "pages/public/city-list",
+    "pages/index/bindPhone",
+    "pages/tabs/live-page",
+    "pages/index/author",
+    "pages/sharepage/author",
+    "pages/tabs/compliceCenter",
+    "pages/tabs/buycompline",
+    "pages/tabs/unsteadyBuy",
+    "pages/tabs/makeGroup",
+    "pages/tabs/LimitedSecondsKill",
+    "pages/tabs/userInfo",
+    "pages/tabs/vipLive",
+    "pages/tabs/vip_list",
+    "pages/mineoptions/shopCenter",
+    "pages/mineoptions/canUserCompline",
+    "pages/mineoptions/myStore",
+    "pages/mineoptions/myEavList",
+    "pages/mineoptions/myMessage",
+    "pages/mineoptions/massagedetails",
+    "pages/mineoptions/setpossword",
+    "pages/mineoptions/pointSuccess",
+    "pages/mineoptions/changePhone",
+    "pages/mineoptions/productEavList",
+    "pages/mineoptions/mywebView",
+    "pages/mineoptions/customerCenter",
+    "pages/mineoptions/vipMemberRights",
+    "pages/mineoptions/position",
+    "pages/point/pointShop",
+    "pages/point/pointGoods",
+    "pages/point/pointCompline",
+    "pages/point/pointRecords",
+    "pages/point/pointDetails",
+    "pages/point/pointComplineDetails",
+    "pages/mineoptions/myAddress",
+    "pages/mineoptions/addressManage",
+    "pages/mineoptions/newAddAdress",
+    "pages/mineoptions/complineCenter",
+    "pages/mineoptions/walletTopUp",
+    "pages/mineoptions/walletTopUpDetails",
+    "pages/mineoptions/invitationPolite",
+    "pages/mineoptions/parseHtml",
+    "pages/mineoptions/vipCode",
+    "pages/sharepage/invitationPoliteShare",
+    "pages/sharepage/groupInvitation",
+    "pages/headCenter/index",
+    "pages/headCenter/withdrawal",
+    "pages/headCenter/applywithdrawals",
+    "pages/headCenter/mySubordinates",
+    "pages/headCenter/myGroupList",
+    "pages/headCenter/withDetails",
+    "pages/headCenter/resginHead",
+    "pages/signIn/signPolite",
+    "pages/order/index",
+    "pages/order/ridertrajectory",
+    "pages/order/orderDetails",
+    "pages/order/userSubEav",
+    "pages/order/finishOrder",
+    "pages/order/creatOrder",
+    "pages/order/payOrder",
+    "pages/order/wuliu",
+    "pages/order/paySuccess",
+    "pages/details/goodsDetails",
+    "pages/sharepage/shareDetails",
+    "pages/search/index",
+    "pages/search/search_list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "伊赛商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabs/index",
+        "iconPath": "/static/tabs/shouye.png",
+        "selectedIconPath": "/static/tabs/shouye(xuanzhong).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabs/class",
+        "iconPath": "/static/tabs/fenlei.png",
+        "selectedIconPath": "/static/tabs/fenlei(xuanzhong).png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/tabs/cart",
+        "iconPath": "/static/tabs/gouwuche.png",
+        "selectedIconPath": "/static/tabs/gouwuche(xuanzhong).png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/tabs/mine",
+        "iconPath": "/static/tabs/wode.png",
+        "selectedIconPath": "/static/tabs/wode(xuanzhong).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "plugins": {
+    "live-player-plugin": {
+      "version": "1.2.5",
+      "provider": "wx2b03c6e691cd7370"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于为您找到服务门店"
+    }
+  },
+  "usingComponents": {
+    "nav-bar": "/components/mycom/pages-header",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "empty": "/components/xw-empty/xw-empty"
+  },
+  "sitemapLocation": "sitemap.json"
+}

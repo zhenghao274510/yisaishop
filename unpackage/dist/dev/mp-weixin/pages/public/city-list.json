@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "城市",
+  "usingComponents": {
+    "nyn-city-list": "/components/bazaar-city_list/index"
+  }
+}

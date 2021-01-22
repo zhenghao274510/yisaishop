@@ -1,0 +1,1 @@
+<view><s-pull-scroll class="vue-ref" vue-id="83eb0f0a-1" pullDown="{{pullDown}}" pullUp="{{loadData}}" back-top="{{true}}" data-ref="pullScroll" bind:__l="__l" vue-slots="{{['default']}}"><compline-item vue-id="{{('83eb0f0a-2')+','+('83eb0f0a-1')}}" list="{{dataList}}" type="0" bind:__l="__l"></compline-item></s-pull-scroll></view>

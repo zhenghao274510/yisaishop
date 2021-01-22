@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "邀请有礼",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser"
+  }
+}

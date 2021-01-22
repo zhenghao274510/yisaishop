@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查看物流",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

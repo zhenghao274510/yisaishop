@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品中心",
+  "usingComponents": {
+    "dish-manage-list": "/components/mycom/firstList",
+    "group-x-title": "/components/mycom/group-x-title",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

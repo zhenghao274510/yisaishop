@@ -1,0 +1,511 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/tabs/ad_page",
+		"style": {
+			"navigationBarTextStyle": "black",
+			"navigationStyle": "custom"
+		}
+	},
+		{
+			"path": "pages/public/noNearShop",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/public/adCompline",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/class",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/cart",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabs/mine",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/public/distributionMode",
+			"style": {
+				"navigationBarTitleText": "配送方式"
+			}
+		},
+		{
+			"path": "pages/public/shopMap",
+			"style": {
+				"navigationBarTitleText": "门店详情"
+			}
+		},
+		{
+			"path": "pages/public/city-list",
+			"style": {
+				"navigationBarTitleText": "城市"
+			}
+		},
+		{
+			"path": "pages/index/bindPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		// #ifdef MP-WEIXIN
+		{
+			"path": "pages/tabs/live-page",
+			"style": {
+				"navigationBarTitleText": "伊赛直播"
+			},
+			"usingComponents": {
+				"subscribe": "plugin-private://wx2b03c6e691cd7370/components/subscribe/subscribe"
+			}
+		},
+		{
+			"path": "pages/index/author",
+			"style": {
+				"navigationBarTitleText": "微信登录"
+			}
+		},
+		{
+			"path": "pages/sharepage/author",
+			"style": {
+				"navigationBarTitleText": "微信登录"
+			}
+		},
+		// #endif
+		{
+			"path": "pages/tabs/compliceCenter",
+			"style": {
+				"navigationBarTitleText": "领劵中心"
+			}
+		},
+		{
+			"path": "pages/tabs/buycompline",
+			"style": {
+				"navigationBarTitleText": "特惠购劵"
+			}
+		},
+		{
+			"path": "pages/tabs/unsteadyBuy",
+			"style": {
+				"navigationBarTitleText": "活动列表"
+			}
+		},
+		{
+			"path": "pages/tabs/makeGroup",
+			"style": {
+				"navigationBarTitleText": "拼团商城"
+			}
+		},
+		{
+			"path": "pages/tabs/LimitedSecondsKill",
+			"style": {
+				"navigationBarTitleText": "限时秒杀"
+			}
+		},
+		{
+			"path": "pages/tabs/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/tabs/vipLive",
+			"style": {
+				"navigationBarTitleText": "伊赛会员"
+			}
+		},
+		{
+			"path": "pages/tabs/vip_list",
+			"style": {
+				"navigationBarTitleText": "会员专享"
+			}
+		},
+		{
+			"path": "pages/mineoptions/shopCenter",
+			"style": {
+				"navigationBarTitleText": "商品中心"
+			}
+		},
+		{
+			"path": "pages/mineoptions/canUserCompline",
+			"style": {
+				"navigationBarTitleText": "可用优惠券"
+			}
+		},
+		{
+			"path": "pages/mineoptions/myStore",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/mineoptions/myEavList",
+			"style": {
+				"navigationBarTitleText": "我的评价"
+			}
+		},
+		{
+			"path": "pages/mineoptions/myMessage",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "pages/mineoptions/massagedetails",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "pages/mineoptions/setpossword",
+			"style": {
+				"navigationBarTitleText": "设置密码"
+			}
+		},
+		{
+			"path": "pages/mineoptions/pointSuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/mineoptions/changePhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path": "pages/mineoptions/productEavList",
+			"style": {
+				"navigationBarTitleText": "商品评价"
+			}
+		},
+		{
+			"path": "pages/mineoptions/mywebView",
+			"style": {
+				"navigationBarTitleText": "伊赛商城"
+			}
+		},
+		{
+			"path": "pages/mineoptions/customerCenter",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/mineoptions/vipMemberRights",
+			"style": {
+				"navigationBarTitleText": "会员专享"
+			}
+		},
+		{
+			"path": "pages/mineoptions/position",
+			"style": {
+				"navigationBarTitleText": "我的位置"
+			}
+		},
+		{
+			"path": "pages/point/pointShop",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/point/pointGoods",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/point/pointCompline",
+			"style": {
+				"navigationBarTitleText": "积分兑劵"
+			}
+		},
+		{
+			"path": "pages/point/pointRecords",
+			"style": {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		{
+			"path": "pages/point/pointDetails",
+			"style": {
+				"navigationBarTitleText": "积分明细"
+			}
+		},
+		{
+			"path": "pages/point/pointComplineDetails",
+			"style": {
+				"navigationBarTitleText": "积分兑劵详情"
+			}
+		},
+		{
+			"path": "pages/mineoptions/myAddress",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/mineoptions/addressManage",
+			"style": {
+				"navigationBarTitleText": "修改地址"
+			}
+		},
+		{
+			"path": "pages/mineoptions/newAddAdress",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/mineoptions/complineCenter",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/mineoptions/walletTopUp",
+			"style": {
+				"navigationBarTitleText": "钱包充值"
+			}
+		},
+		{
+			"path": "pages/mineoptions/walletTopUpDetails",
+			"style": {
+				"navigationBarTitleText": "交易明细"
+			}
+		},
+		{
+			"path": "pages/mineoptions/invitationPolite",
+			"style": {
+				"navigationBarTitleText": "邀请有礼"
+			}
+		},
+		{
+			"path": "pages/mineoptions/parseHtml",
+			"style": {
+				"navigationBarTitleText": "领券中心"
+			}
+		},
+		{
+			"path": "pages/mineoptions/vipCode",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#006F2F",
+				"navigationBarTitleText": "会员码"
+			}
+		},
+		{
+			"path": "pages/sharepage/invitationPoliteShare",
+			"style": {
+				"navigationBarTitleText": "邀请有礼"
+			}
+		},
+		{
+			"path": "pages/sharepage/groupInvitation",
+			"style": {
+				"navigationBarTitleText": "伊赛商城"
+			}
+		},
+		{
+			"path": "pages/headCenter/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "团长中心",
+				"navigationBarBackgroundColor": "#006F2F"
+			}
+		},
+		{
+			"path": "pages/headCenter/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/headCenter/applywithdrawals",
+			"style": {
+				"navigationBarTitleText": "申请提现"
+			}
+		},
+		{
+			"path": "pages/headCenter/mySubordinates",
+			"style": {
+				"navigationBarTitleText": "我的团员"
+			}
+		},
+		{
+			"path": "pages/headCenter/myGroupList",
+			"style": {
+				"navigationBarTitleText": "我的团单"
+			}
+		},
+		{
+			"path": "pages/headCenter/withDetails",
+			"style": {
+				"navigationBarTitleText": "收益明细"
+			}
+		},
+		{
+			"path": "pages/headCenter/resginHead",
+			"style": {
+				"navigationBarTitleText": "申请成为团长"
+			}
+		},
+		{
+			"path": "pages/signIn/signPolite",
+			"style": {
+				"navigationBarTitleText": "签到有礼"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order/ridertrajectory",
+			"style": {
+				"navigationBarTitleText": "配送详情"
+			}
+		},
+		{
+			"path": "pages/order/orderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/userSubEav",
+			"style": {
+				"navigationBarTitleText": "发表评论"
+			}
+		},
+		{
+			"path": "pages/order/finishOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/order/creatOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/order/payOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/order/wuliu",
+			"style": {
+				"navigationBarTitleText": "查看物流"
+			}
+		},
+		{
+			"path": "pages/order/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/details/goodsDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/sharepage/shareDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/search/search_list",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "伊赛商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#333333",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabs/index",
+				"iconPath": "/static/tabs/shouye.png",
+				"selectedIconPath": "/static/tabs/shouye(xuanzhong).png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabs/class",
+				"iconPath": "/static/tabs/fenlei.png",
+				"selectedIconPath": "/static/tabs/fenlei(xuanzhong).png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/tabs/cart",
+				"iconPath": "/static/tabs/gouwuche.png",
+				"selectedIconPath": "/static/tabs/gouwuche(xuanzhong).png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/tabs/mine",
+				"iconPath": "/static/tabs/wode.png",
+				"selectedIconPath": "/static/tabs/wode(xuanzhong).png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

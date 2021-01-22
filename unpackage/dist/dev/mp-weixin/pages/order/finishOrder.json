@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "home-pounp": "/components/mycom/homePoup"
+  }
+}

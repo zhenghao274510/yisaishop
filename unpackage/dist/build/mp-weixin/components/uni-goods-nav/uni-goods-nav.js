@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-goods-nav/uni-goods-nav"],{"2b01":function(t,n,o){"use strict";o.r(n);var e=o("b820"),c=o("5444");for(var i in c)"default"!==i&&function(t){o.d(n,t,(function(){return c[t]}))}(i);o("9500");var u,a=o("f0c5"),r=Object(a["a"])(c["default"],e["b"],e["c"],!1,null,"6eae0384",null,!1,e["a"],u);n["default"]=r.exports},"45da":function(t,n,o){},5444:function(t,n,o){"use strict";o.r(n);var e=o("d030"),c=o.n(e);for(var i in e)"default"!==i&&function(t){o.d(n,t,(function(){return e[t]}))}(i);n["default"]=c.a},9500:function(t,n,o){"use strict";var e=o("45da"),c=o.n(e);c.a},b820:function(t,n,o){"use strict";var e;o.d(n,"b",(function(){return c})),o.d(n,"c",(function(){return i})),o.d(n,"a",(function(){return e}));var c=function(){var t=this,n=t.$createElement;t._self._c},i=[]},d030:function(t,n,o){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"UniGoodsNav",data:function(){return{options:[{icon:"/static/img/gouwuche.png",text:"购物车"},{icon:"/static/img/fenxiang.png",text:"分享"}],buttonGroup:[{text:"加入购物车",color:"#fff"},{text:"立即抢购",color:"#fff"}]}},props:{collect:{type:[String,Number],default:0},fill:{type:Boolean,default:!1}},watch:{collect:function(t){this.options[1].icon=1==t?"/static/img/yishoucang.png":"/static/img/shoucang.png"}},methods:{onClick:function(t,n){console.log(this.collect),this.$emit("click",{index:t,content:n})},buttonClick:function(n,o){t.report&&t.report(o.text,o.text),this.$emit("buttonClick",{index:n,content:o})}}};n.default=o}).call(this,o("543d")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-goods-nav/uni-goods-nav-create-component',
+    {
+        'components/uni-goods-nav/uni-goods-nav-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("2b01"))
+        })
+    },
+    [['components/uni-goods-nav/uni-goods-nav-create-component']]
+]);

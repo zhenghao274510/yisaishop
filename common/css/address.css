@@ -1,0 +1,108 @@
+.uni-icon {
+		font-size: 28upx;
+		margin-right: 15upx;
+	}
+	.iconfont {
+		font-size: 40upx;
+		margin-right: 10upx;
+	}
+	.line {
+		border-top: 1upx solid #f0f0f0;
+	}
+	.row {
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+	.tit {
+		font-size: 21upx;
+		color: #666666;
+	}
+
+	.list {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10upx;
+		padding: 0 20upx;
+		background: #fff;
+	}
+
+	.edmit {
+		border: 1px solid #F2F2F2;
+		color: #666666;
+	}
+
+	.del {
+		border: 1px solid #F2F2F2;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		padding: 20upx 0;
+	}
+
+	.address-box {
+		display: flex;
+		margin-top: 20upx;
+		font-size: 20upx;
+	}
+	.default {
+		color: #6CD454;
+		width:90upx;
+	}
+	.address {
+		color: #999999;
+	}
+
+	.u-box-first {
+		color: #666666;
+		/* // font-weight: bold; */
+		margin-top: 16upx;
+		display: flex;
+		align-items: center;
+	}
+	.name {
+		font-weight: bold;
+		color: #333333;
+	}
+	
+	.mobile {
+		color: #333333;
+		margin-left: 30upx;
+	}
+	.u-box {
+		font-size: 14px;
+		margin-top: 16upx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.add-btn {
+		width: 700upx;
+		line-height: 79upx;
+		text-align: center;
+		background: #006F2F;
+		color: #FFFFFF;
+		font-size: 30upx;
+		border-radius: 39upx;
+		position: fixed;
+		bottom:25upx;
+		left:25upx;
+		z-index: 99;
+	}
+
+	.u-bottom {
+		display: flex;
+		justify-content: flex-end;
+		padding: 10px 0;
+	}
+
+	.yticon {
+		padding: 4upx 20upx;
+		border-radius: 5px;
+		margin-left: 15px;
+		font-size: 22upx;
+	}

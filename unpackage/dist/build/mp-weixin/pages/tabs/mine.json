@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-gird": "/components/uni-grid/uni-grid",
+    "uni-gird-item": "/components/uni-grid-item/uni-grid-item",
+    "mine-servce-list": "/components/mycom/mine-servce",
+    "mine-order-list": "/components/mycom/mine-order-list"
+  }
+}

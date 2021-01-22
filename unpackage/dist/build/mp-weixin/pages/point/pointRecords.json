@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "兑换记录",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "group-x-title": "/components/mycom/group-x-title",
+    "compline-item": "/components/mycom/compline-item",
+    "user-point-goods": "/components/mycom/user-point-goods"
+  }
+}

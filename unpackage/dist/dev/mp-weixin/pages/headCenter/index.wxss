@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.group-con.data-v-1719a911 {
+  padding: 30rpx;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+.group-top.data-v-1719a911 {
+  width: 100%;
+  height: 341rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 3rpx 8rpx 0px rgba(232, 232, 232, 0.16);
+  border-radius: 15rpx;
+}
+.user-icon.data-v-1719a911 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.bill-btn.data-v-1719a911 {
+  width: 148rpx;
+  height: 46rpx;
+  background: #057535;
+  border-radius: 23rpx 0px 0px 23rpx;
+  font-size: 22rpx;
+  color: #FDFFFE;
+}
+.apply-withdrawals.data-v-1719a911 {
+  width: 166rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background: #FFB600;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+.group-middle.data-v-1719a911 {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 50rpx 30rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}
+.group-bottom.data-v-1719a911 {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}
+.group-money.data-v-1719a911 {
+  font-size: 42rpx;
+  font-weight: bold;
+  color: #000000;
+}
+.group-sec.data-v-1719a911 {
+  width: 179rpx;
+  line-height: 42rpx;
+  background: #F6F6F6;
+  border-radius: 21rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #666666;
+}
+.one-btn.data-v-1719a911 {
+  background: #007030;
+}
+.two-btn.data-v-1719a911 {
+  background: #FFB600;
+}
+.group-btn.data-v-1719a911 {
+  width: 302rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border-radius: 35rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+}
+

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.sign-icon.data-v-19a5390e {
+  width: 62rpx;
+  height: 62rpx;
+}
+.line.data-v-19a5390e {
+  height: 5rpx;
+  width: 40rpx;
+  background: #FFEAB8;
+  border-radius: 3rpx;
+}
+.seven-point.data-v-19a5390e {
+  font-size: 22rpx;
+  color: #EE3D59;
+  position: absolute;
+  top: -28rpx;
+  left: 0;
+}
+.sign-point.data-v-19a5390e {
+  width: 68rpx;
+  line-height: 28rpx;
+  background: #007030;
+  border-radius: 14rpx;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: -10rpx;
+  font-size: 19rpx;
+  color: #F2FFF8;
+  z-index: 99;
+}
+.y-bg.data-v-19a5390e {
+  background: #FFB600;
+  color: #FFFAF4;
+}
+.c-bg.data-v-19a5390e {
+  background: #F6F6F6;
+}
+.sign-btn.data-v-19a5390e {
+  width: 687rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.guze-icon.data-v-19a5390e {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 20rpx;
+}
+.point-con.data-v-19a5390e {
+  padding: 0 30rpx;
+}
+.sign-con.data-v-19a5390e {
+  width: 98%;
+  margin: 0 0 20rpx 1%;
+  height: 384rpx;
+  background: #FFFFFF;
+  border-radius: 15rpx;
+  padding: 50rpx 20rpx;
+  box-sizing: border-box;
+}
+.kajuan-icon.data-v-19a5390e {
+  width: 48rpx;
+  height: 28rpx;
+  margin-right: 20rpx;
+}
+.uni-icon-arrowright.data-v-19a5390e {
+  color: #666666;
+  font-size: 24rpx;
+}
+.point-top-con.data-v-19a5390e {
+  width: 98%;
+  margin-left: 1%;
+  background: #FFFFFF;
+}
+.point-icon.data-v-19a5390e {
+  width: 42rpx;
+  height: 42rpx;
+}
+.point-top-con-title.data-v-19a5390e {
+  padding: 30rpx;
+}
+.point-img.data-v-19a5390e {
+  width: 90rpx;
+  height: 90rpx;
+}
+.point-nav-con.data-v-19a5390e {
+  padding: 60rpx 0;
+}
+.point-nav-title.data-v-19a5390e {
+  padding-top: 20rpx;
+  font-size: 24rpx;
+  color: #666666;
+}
+

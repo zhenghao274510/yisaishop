@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的团单",
+  "usingComponents": {
+    "s-switch": "/components/s-switch/s-switch",
+    "home-poup": "/components/mycom/homePoup",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

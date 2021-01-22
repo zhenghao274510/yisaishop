@@ -1,0 +1,1 @@
+<view class="img_con data-v-ffe610da"><view data-event-opts="{{[['tap',[['userOptions',[1]]]]]}}" class="top_ad_second data-v-ffe610da" style="{{'top:'+(navBarTop+'px')+';'}}" catchtap="__e">{{''+rTime+'s'}}</view><image class="open_image data-v-ffe610da" src="{{image}}" data-event-opts="{{[['tap',[['userOptions',[0]]]]]}}" catchtap="__e"></image></view>

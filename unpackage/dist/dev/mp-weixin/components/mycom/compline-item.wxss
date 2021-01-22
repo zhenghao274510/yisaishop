@@ -1,0 +1,116 @@
+
+view.data-v-069e5a78 {
+	line-height: 1.2;
+}
+.y-bg.data-v-069e5a78 {
+		background: #FFB500;
+}
+.c-bg.data-v-069e5a78 {
+		background: #BFBFBF;
+}
+.user-btn.data-v-069e5a78 {
+		padding: 8rpx 16rpx;
+		font-size: 22rpx;
+		border-radius: 20rpx;
+		margin-right: 10rpx;
+}
+.l-btn-bg.data-v-069e5a78 {
+		background: #007030;
+		color: #FFFFFF;
+}
+.c-btn-bg.data-v-069e5a78 {
+		background: #BFBFBF;
+}
+.has-see-icon.data-v-069e5a78 {
+		width: 159rpx;
+		height: 128rpx;
+}
+.compline-item-bg.data-v-069e5a78 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #000000;
+		opacity: 0.5;
+		border-radius: 15rpx;
+		z-index: 99;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.compline-item.data-v-069e5a78 {
+		width: 94%;
+		height: 199rpx;
+		background: #FFFFFF;
+		border-radius: 10rpx;
+		margin: 20rpx auto 0;
+		content-visibility: auto;
+		position: relative;
+}
+.item-tips.data-v-069e5a78 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 146rpx;
+		line-height: 43rpx;
+		text-align: center;
+		border-radius: 10rpx 4rpx 4rpx 0px;
+		font-size: 26rpx;
+}
+.compline-item-left.data-v-069e5a78 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		padding: 20rpx 0;
+		box-sizing: border-box;
+		border: 2rpx solid rgba(238, 238, 238, 0.65);
+}
+.item-left-con.data-v-069e5a78 {
+		width: 25%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		border-right: 1rpx dashed #D0D0D2;
+		padding: 0 10rpx;
+}
+.compline-item-right.data-v-069e5a78 {
+		width: 88rpx;
+		height: 199rpx;
+		border-radius: 10rpx;
+		padding: 30rpx;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		font-weight: bold;
+		position: relative;
+}
+.compline-item-right.data-v-069e5a78::after {
+		content: '';
+		width: 30rpx;
+		height: 30rpx;
+		position: absolute;
+		top: -15rpx;
+		left: -15rpx;
+		background-color: #FFFFFF;
+		border-radius: 0 0 30rpx 30rpx;
+}
+.compline-item-right.data-v-069e5a78::before {
+		content: '';
+		width: 30rpx;
+		height: 30rpx;
+		position: absolute;
+		left: -15rpx;
+		bottom: -15rpx;
+		background-color: #FFFFFF;
+		border-radius: 30rpx 30rpx 0 0;
+}
+
+
+

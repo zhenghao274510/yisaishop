@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "拼团商城",
+  "usingComponents": {
+    "group-list": "/components/mycom/groupList",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "group-x-title": "/components/mycom/group-x-title"
+  }
+}

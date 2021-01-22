@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "s-switch": "/components/s-switch/s-switch",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

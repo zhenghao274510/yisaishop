@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的评价",
+  "usingComponents": {
+    "eva-product-list": "/components/mycom/eva-product-List",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

@@ -1,0 +1,83 @@
+.y-bg {
+		background: #FFB500;
+	}
+
+	.c-bg {
+		background: #BFBFBF;
+	}
+
+	.user-btn {
+		padding: 8upx 16upx;
+		font-size: 22upx;
+		border-radius: 20upx;
+		margin-right: 10upx;
+	}
+
+	.l-btn-bg {
+		background: #007030;
+		color: #FFFFFF;
+	}
+
+	.c-btn-bg {
+		background: #BFBFBF;
+	}
+
+	.has-see-icon {
+		width: 159upx;
+		height: 128upx;
+	}
+
+	.compline-item-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #000000;
+		opacity: 0.5;
+		border-radius: 15upx;
+		z-index: 99;
+		display: flex;
+		align-items: center;
+	}
+
+	.compline-item {
+		width: 94%;
+		height: 199upx;
+		background: #FFFFFF;
+		border-radius: 10upx;
+		margin: 20upx auto 0;
+		content-visibility: auto;
+		position: relative;
+
+	}
+
+	.item-tips {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 146upx;
+		line-height: 43upx;
+		text-align: center;
+		border-radius: 10upx 4upx 4upx 0px;
+		font-size: 26upx;
+	}
+
+	.compline-item-left {
+		display: flex;
+		align-items: center;
+		padding: 20upx 0;
+		box-sizing: border-box;
+		border: 2upx solid rgba(238, 238, 238, 0.65);
+	}
+	.item-left-con {
+		width: 25%;
+		flex-direction: column;
+		border-right: 1upx dashed #D0D0D2;
+		padding: 0 10upx;
+	}
+	.compline-item-right{
+		width:70upx;
+		padding: 20upx;
+		box-sizing: border-box;
+	}

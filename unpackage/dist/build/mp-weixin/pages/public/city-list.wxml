@@ -1,0 +1,1 @@
+<view><nyn-city-list bind:getCity="__e" vue-id="05899853-1" data-event-opts="{{[['^getCity',[['getCity']]]]}}" bind:__l="__l"></nyn-city-list></view>

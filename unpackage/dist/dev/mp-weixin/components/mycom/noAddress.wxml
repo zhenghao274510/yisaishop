@@ -1,0 +1,1 @@
+<view class="xw-empty"><view class="xw-empty-con"><image src="/static/img/dizhiguanli.png" mode="widthFix"></image><text style="{{'color:'+(textColor)+';'}}">{{text}}</text><navigator class="btn" url="/pages/mineoptions/newAddAdress">新增地址</navigator></view></view>

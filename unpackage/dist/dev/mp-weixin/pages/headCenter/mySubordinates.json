@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的团员",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "group-x-title": "/components/mycom/group-x-title"
+  }
+}

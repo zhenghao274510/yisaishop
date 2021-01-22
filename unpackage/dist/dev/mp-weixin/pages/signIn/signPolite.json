@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "签到有礼",
+  "usingComponents": {
+    "goods-swiper": "/components/mycom/swiper",
+    "point-item": "/components/mycom/point-item",
+    "home-poup": "/components/mycom/homePoup",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "point-compline-item": "/components/mycom/point-compline-item"
+  }
+}

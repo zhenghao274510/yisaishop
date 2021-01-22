@@ -1,0 +1,50 @@
+
+page{
+	background: #FFFFFF;
+}
+
+
+.uni-icon.data-v-1e719946{
+	font-size: 30rpx;
+}
+.top-city.data-v-1e719946{
+	width: 100rpx;
+}
+.map.data-v-1e719946 {
+	width: 100%;
+	height:500rpx;
+	z-index: 0;
+}
+.searchList.data-v-1e719946 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: calc(100% - 560rpx);
+	background: #fff;
+	z-index:99;
+}
+.searchList .addres-item.data-v-1e719946 {
+	padding: 10rpx 20rpx;
+	height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.item-name.data-v-1e719946,
+.item-address.data-v-1e719946 {
+	width: 600rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+

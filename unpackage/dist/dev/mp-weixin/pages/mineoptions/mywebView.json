@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "伊赛商城",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser"
+  }
+}

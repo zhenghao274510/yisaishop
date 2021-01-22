@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "bbs-countdown": "/components/bbs-countdown/bbs-countdown",
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "uni-goods-nav": "/components/uni-goods-nav/uni-goods-nav",
+    "hch-poster": "/components/hch-poster/hch-poster",
+    "goods-swiper": "/components/mycom/goods-swiper",
+    "goods-nav": "/components/uni-goods-nav/goods-nav",
+    "goods-pounp": "/components/mycom/homePoup",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "eva-product-list": "/components/mycom/eva-product-List",
+    "group-item-info": "/components/mycom/group-item-info",
+    "group-goods-nav": "/components/uni-goods-nav/group-goods-nav",
+    "share-pounp": "/components/mycom/sharePounp",
+    "one-sku-swiper": "/components/mycom/one-sku-swiper",
+    "home-list": "/components/mycom/homeList",
+    "no-shop": "/components/noshop/no-shop",
+    "more-group-sku": "/components/mycom/more-number-swiper"
+  }
+}

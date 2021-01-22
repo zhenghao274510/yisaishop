@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "特惠购劵",
+  "usingComponents": {
+    "compline-item": "/components/mycom/compline-item",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "compline-item": "/components/mycom/compline-item",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

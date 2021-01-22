@@ -1,0 +1,30 @@
+
+@-webkit-keyframes show {
+0% {
+		opacity: 0;
+}
+100% {
+		opacity: 1;
+}
+}
+@keyframes show {
+0% {
+		opacity: 0;
+}
+100% {
+		opacity: 1;
+}
+}
+:host {
+	display: block;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+
+
+
+.goods_info_use.data-v-a9871898 {
+	padding: 20rpx;
+}
+

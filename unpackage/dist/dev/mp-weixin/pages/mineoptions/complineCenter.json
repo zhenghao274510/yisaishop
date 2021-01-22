@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的优惠券",
+  "usingComponents": {
+    "compline-item": "/components/mycom/compline-item",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "group-x-title": "/components/mycom/group-x-title",
+    "compline-qrcode": "/components/mycom/compline-qrcode"
+  }
+}

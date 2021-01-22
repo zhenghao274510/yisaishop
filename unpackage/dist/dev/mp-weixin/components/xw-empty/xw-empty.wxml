@@ -1,0 +1,1 @@
+<view class="xw-empty"><image src="{{baseImg}}" mode="widthFix"></image><text style="{{'color:'+(textColor)+';'}}">{{title}}</text></view>

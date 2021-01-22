@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索列表",
+  "usingComponents": {
+    "home-list": "/components/mycom/homeList",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "one-sku-swiper": "/components/mycom/index-one-sku"
+  }
+}

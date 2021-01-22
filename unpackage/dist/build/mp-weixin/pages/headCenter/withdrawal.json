@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "提现记录",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

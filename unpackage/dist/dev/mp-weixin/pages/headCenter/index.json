@@ -1,0 +1,13 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "团长中心",
+  "navigationBarBackgroundColor": "#006F2F",
+  "usingComponents": {
+    "home-poup": "/components/mycom/homePoup",
+    "uni-gird": "/components/uni-grid/uni-grid",
+    "uni-gird-item": "/components/uni-grid-item/uni-grid-item",
+    "mine-servce-list": "/components/mycom/mine-servce",
+    "mine-order-list": "/components/mycom/mine-order-list",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

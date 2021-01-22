@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "会员专享",
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

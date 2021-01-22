@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.order-tips.data-v-0ca91b30 {
+  background: #006F2F;
+  border-radius: 8rpx;
+  color: #FFFFFF;
+  font-size: 22rpx;
+  padding: 0 10rpx;
+  margin-right: 20rpx;
+}
+.pad.data-v-0ca91b30 {
+  padding: 20rpx 0;
+}
+.order-ordernum.data-v-0ca91b30 {
+  font-size: 24rpx;
+  color: #333333;
+}
+.l_bg.data-v-0ca91b30 {
+  background: #006F2F;
+}
+.y_bg.data-v-0ca91b30 {
+  background: #F15721;
+}
+.uni-badge-btn.data-v-0ca91b30 {
+  width: 150rpx;
+  line-height: 53rpx;
+  border-radius: 26rpx;
+  text-align: center;
+  font-size: 26rpx;
+  margin: 0 10rpx;
+  color: #FFFFFF;
+}
+.del-icon.data-v-0ca91b30 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.icon-delete.data-v-0ca91b30 {
+  font-size: 32rpx;
+  color: #999999;
+}
+.skuname.data-v-0ca91b30 {
+  font-size: 24rpx;
+  font-size: #656565;
+}
+.price-box.data-v-0ca91b30 {
+  color: #656565;
+  font-size: 20rpx;
+}
+.order-status-right-price.data-v-0ca91b30 {
+  color: #000000;
+  font-size: 31rpx;
+  font-weight: bold;
+}
+.order-status-right.data-v-0ca91b30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.order-status-right .order-status-right-one.data-v-0ca91b30 {
+  font-size: 24rpx;
+  color: #666666;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.swiper-box.data-v-0ca91b30 {
+  height: calc(100% - 40px);
+}
+.list-scroll-content.data-v-0ca91b30 {
+  height: 100%;
+  padding: 0 20rpx;
+}
+.order-time.data-v-0ca91b30 {
+  font-size: 22rpx;
+  color: #999999;
+}
+.order-item.data-v-0ca91b30 {
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.order-item .title.data-v-0ca91b30 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.order-img-con.data-v-0ca91b30 {
+  padding: 0 20rpx;
+}
+.goods-img.data-v-0ca91b30 {
+  width: 114rpx;
+  height: 114rpx;
+  border-radius: 6rpx;
+}
+.navbar.data-v-0ca91b30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 80rpx;
+  padding: 0 10rpx;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+}
+.navbar .nav-item.data-v-0ca91b30 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  font-size: 28rpx;
+  color: #666666;
+  position: relative;
+}
+.navbar .nav-item.current.data-v-0ca91b30 {
+  color: #006F2F;
+}
+.navbar .nav-item.current.data-v-0ca91b30:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 90rpx;
+  height: 0;
+  border-bottom: 2rpx solid #006F2F;
+}
+

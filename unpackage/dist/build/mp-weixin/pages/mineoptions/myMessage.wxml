@@ -1,0 +1,1 @@
+<view><s-pull-scroll class="vue-ref" vue-id="e8a02b50-1" pullDown="{{pullDown}}" pullUp="{{loadData}}" back-top="{{true}}" data-ref="pullScroll" bind:__l="__l" vue-slots="{{['default']}}"><message-item vue-id="{{('e8a02b50-2')+','+('e8a02b50-1')}}" list="{{dataList}}" bind:__l="__l"></message-item></s-pull-scroll></view>

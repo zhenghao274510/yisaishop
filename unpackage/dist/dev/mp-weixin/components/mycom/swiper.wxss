@@ -1,0 +1,27 @@
+
+.swiper-content.data-v-5bb1cd2d {
+	position: relative;
+}
+.uni-icon-location-filled.data-v-5bb1cd2d {
+	color: #FFFFFF;
+	font-size: 28rpx;
+}
+.img.data-v-5bb1cd2d {
+	width: 50rpx;
+	height: 50rpx;
+}
+.swiper.data-v-5bb1cd2d {
+	width: 100%;
+	height: 300rpx;
+}
+.swiper-item.data-v-5bb1cd2d {
+	width: 100%;
+	display: block;
+}
+.swiper-item ._img.data-v-5bb1cd2d {
+	width: 96%;
+	margin: 0 auto;
+	display: block;
+	height: 300rpx;
+}
+

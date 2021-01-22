@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-goods-nav/goods-nav"],{"18d6":function(t,n,o){"use strict";o.r(n);var c=o("f5ca"),e=o("6c99");for(var i in e)"default"!==i&&function(t){o.d(n,t,(function(){return e[t]}))}(i);o("800f");var u,a=o("f0c5"),f=Object(a["a"])(e["default"],c["b"],c["c"],!1,null,"192e3bb3",null,!1,c["a"],u);n["default"]=f.exports},"6c99":function(t,n,o){"use strict";o.r(n);var c=o("91b5"),e=o.n(c);for(var i in c)"default"!==i&&function(t){o.d(n,t,(function(){return c[t]}))}(i);n["default"]=e.a},"800f":function(t,n,o){"use strict";var c=o("a500"),e=o.n(c);e.a},"91b5":function(t,n,o){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"UniGoodsNav",data:function(){return{options:[{icon:"/static/img/gouwuche.png",text:"购物车"},{icon:"/static/img/fenxiang.png",text:"分享"}],buttonGroup:[{text:"加入购物车",color:"#fff"},{text:"立即购买",color:"#fff"}]}},props:{collect:{type:[String,Number],default:0},fill:{type:Boolean,default:!1}},watch:{collect:function(t){this.options[1].icon=1==t?"/static/img/yishoucang.png":"/static/img/shoucang.png"}},methods:{onClick:function(t,n){console.log(this.collect),this.$emit("click",{index:t,content:n})},buttonClick:function(n,o){t.report&&t.report(o.text,o.text),this.$emit("buttonClick",{index:n,content:o})}}};n.default=o}).call(this,o("543d")["default"])},a500:function(t,n,o){},f5ca:function(t,n,o){"use strict";var c;o.d(n,"b",(function(){return e})),o.d(n,"c",(function(){return i})),o.d(n,"a",(function(){return c}));var e=function(){var t=this,n=t.$createElement;t._self._c},i=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-goods-nav/goods-nav-create-component',
+    {
+        'components/uni-goods-nav/goods-nav-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("18d6"))
+        })
+    },
+    [['components/uni-goods-nav/goods-nav-create-component']]
+]);

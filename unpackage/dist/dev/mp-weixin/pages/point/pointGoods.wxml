@@ -1,0 +1,1 @@
+<view class="data-v-ccf74104"><s-pull-scroll vue-id="d1efdd70-1" pullDown="{{pullDown}}" pullUp="{{loadData}}" back-top="{{true}}" data-ref="pullScroll" class="data-v-ccf74104 vue-ref" bind:__l="__l" vue-slots="{{['default']}}"><point-item vue-id="{{('d1efdd70-2')+','+('d1efdd70-1')}}" list="{{dataList}}" class="data-v-ccf74104" bind:__l="__l"></point-item></s-pull-scroll></view>

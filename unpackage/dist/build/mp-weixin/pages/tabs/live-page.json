@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "伊赛直播",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

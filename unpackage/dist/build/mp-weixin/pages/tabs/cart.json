@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bbs-countdown": "/components/bbs-countdown/bbs-countdown",
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "empty": "/components/mycom/cartEmpty"
+  }
+}

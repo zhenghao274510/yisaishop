@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收益明细",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "配送方式",
+  "usingComponents": {
+    "s-switch": "/components/s-switch/s-switch",
+    "s-pull-scroll": "/components/s-pull-scroll/index",
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
+    "no-shop": "/components/noshop/no-shop"
+  }
+}

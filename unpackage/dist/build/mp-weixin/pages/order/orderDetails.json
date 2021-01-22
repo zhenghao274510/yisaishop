@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "bbs-countdown": "/components/bbs-countdown/bbs-countdown"
+  }
+}

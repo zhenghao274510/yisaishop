@@ -1,0 +1,1 @@
+<view><s-pull-scroll class="vue-ref" vue-id="146c3de7-1" pullDown="{{pullDown}}" pullUp="{{loadData}}" back-top="{{true}}" data-ref="pullScroll" bind:__l="__l" vue-slots="{{['default']}}"><eva-product-list vue-id="{{('146c3de7-2')+','+('146c3de7-1')}}" list="{{dataList}}" pad="20" bind:__l="__l"></eva-product-list></s-pull-scroll></view>
